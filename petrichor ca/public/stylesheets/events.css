@@ -1,0 +1,19 @@
+
+.ll {
+        margin: 5px;
+        display: inline-block;
+    }
+.ll a {
+        padding: 5px;
+        display: inline-block;      
+
+    }
+.ll a img {
+        width: 100%;
+        display: block;
+    }
+.ll a:hover img {
+        z-index: 999;
+        transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }

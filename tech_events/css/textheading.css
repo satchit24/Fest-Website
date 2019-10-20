@@ -1,0 +1,169 @@
+﻿html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: black;
+}
+
+@font-face {
+  font-family: polya;
+  src: url(../assets/fonts/POLYA.ttf); 
+}
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.neon {
+  font-family: polya;
+  color: #FF0055;
+  font-size: 13vw;
+  line-height: 9vw;
+  font-weight: normal;
+  text-shadow: 0 0 5vw #B94578;
+}
+
+.neon : hover {
+  font-family: polya;
+  color: #FF0055;
+  font-size: 13vw;
+  line-height: 9vw;
+  font-weight: bold;
+  text-shadow: 0 0 5vw #B94578;
+}
+
+
+.flux {
+  font-family: Gravedigger;
+  color: #426DFB;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.neon {
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+}
+
+/*@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 2vw #FA1C16, 0 0 6vw #FA1C16, 0 0 6vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1vw #800E0B, 0 0 3vw #800E0B, 0 0 3vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #FED128;
+  }
+}*/
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+
+
+.text {
+    text-align: center;
+    padding: 50px;
+}
+
+/*.text__3d {
+    display: inline-block;
+    /*font-family: 'Permanent Marker', cursive;
+	font-family: 'Thasadith', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 68px;
+    line-height: 68px;
+    position: relative;
+    z-index: 0;
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+    .text__3d:before,
+    .text__3d:after {
+        content: attr(data-line);
+        position: absolute;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+    }
+
+    .text__3d:before {
+        color: #fd0258;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: rotate(-3deg);
+        animation: shakeBefore .7s cubic-bezier(.36,.07,.19,.97) both infinite;
+        animation-delay: .3s;
+    }
+
+    .text__3d:after {
+        color: #33e089;
+        top: 0px;
+        left: 0px;
+        z-index: -2;
+        animation: shakeAfter .7s cubic-bezier(.36,.07,.19,.97) both infinite;
+        transform: rotate(3deg);
+    }
+
+@keyframes shakeBefore {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-3px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+@keyframes shakeAfter {
+    10%, 90% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(4px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}*/

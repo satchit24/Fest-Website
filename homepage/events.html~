@@ -1,0 +1,95 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Petrichor 2020</title>
+
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+            <link rel="shortcut icon" href="./static/favicon.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9546354-3"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script data-main="js/app" src="require.js"></script>
+
+    </head>
+
+    <body id="body">
+        <div class="site_wrapper_outer">
+            <div class="patterns" id="patterns"></div><div id="hee-header" class="header-wrapper wrapper">
+</div><div class="site-wrapper wrapper">
+
+    <div class="home-main-wrapper main-wrapper wrapper">
+
+        <div class="main-wrapper-container">
+            <div class="home-elements">
+                <div id="hee-schedule" class="home-elements-element home-elements-element-schedule home-elements-element-leopard">
+                    <a href="schedule.php">
+                        <div class="home-elements-element-content">
+                            <h3 class="home-elements-element-title">Technical Events</h3>
+                            <p>The way to creativity is followed by the technical minds.</p>
+                        </div>
+                    </a>
+                    <figure>
+                        <img src="https://image.shutterstock.com/image-photo/technical-support-customer-service-business-260nw-1119128867.jpg" alt="">
+                    </figure>
+                </div>
+                <div id="hee-speakers" class="home-elements-element home-elements-element-speakers home-elements-element-giraffe">
+                    <a href="speakers.php">
+                        <div class="home-elements-element-content">
+                            <h3 class="home-elements-element-title">Cultural Events</h3>
+                            <p>A pure soul gives a pure art of mind and criminiscence.</p>
+                        </div>
+                    </a>
+                    <figure>
+                        <img src="img/elements/redsquare.png" alt="">
+                    </figure>
+                </div>
+                <div id="hee-about" class="home-elements-element home-elements-element-sub home-elements-element-about home-elements-element-tiger">
+                    <a href="about.php">
+                        <div class="home-elements-element-content">
+                            <h3 class="home-elements-element-title">Workshops</h3>
+                            <p>---------------------</p>
+                        </div>
+                    </a>
+                    <figure>
+                        <img src="img/elements/redsquare.png" alt="">
+                    </figure>
+                </div>
+                <div id="hee-sponsors" class="home-elements-element home-elements-element-sub home-elements-element-sponsors home-elements-element-leopard">
+                    <a href="sponsors.php">
+                        <div class="home-elements-element-content">
+                            <h3 class="home-elements-element-title">Proshows</h3>
+                            <p>------------------------</p>
+                        </div>
+                    </a>
+                    <figure>
+                        <img src="img/elements/redsquare.png" alt="">
+                    </figure>
+                </div>
+                <div id="hee-whyattend" class="home-elements-element home-elements-element-sub home-elements-element-whyattend home-elements-element-tiger">
+                    <a href="attend.php">
+                        <div class="home-elements-element-content">
+                            <h3 class="home-elements-element-title">Guest Lectures</h3>
+                            <p>-----------------------------------</p>
+                        </div>
+                    </a>
+                    <figure>
+                        <img src="img/elements/redsquare.png" alt="">
+                    </figure>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+        
+
+</body>
+</html>

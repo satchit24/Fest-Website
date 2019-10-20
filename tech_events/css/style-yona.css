@@ -1,0 +1,49 @@
+.menu--yona {
+	/*font-family: 'Alegreya Sans', monospace;*/
+	/*font-family: 'Poiret One', cursive;*/
+	/*font-family: 'Major Mono Display', monospace;*/
+	font-family: 'Pacifico', cursive;
+	/*font-family: 'Petit Formal Script', cursive;*/
+	font-size: 1.25em;
+}
+
+
+.menu--yona .menu__item {
+	font-size: 1.5em;
+	/*font-weight: 600;*/
+	margin: 1.25em 0;
+	padding-left: 0.25em;
+}
+
+.menu--yona .menu__item-name {
+	color: #000;
+	
+}
+
+.menu--yona .menu__item:hover .menu__item-name,
+.menu--yona .menu__item:focus .menu__item-name {
+	
+}
+
+
+
+.menu--yona .menu__item:hover::before,
+.menu--yona .menu__item:focus::before {
+	/*transform: scale3d(1,1,1);*/
+}
+
+.menu--yona .menu__item-label {
+
+
+	display: block;
+	margin: 0;
+	word-spacing: 0.15em;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 50em) {
+	.menu--yona .menu__item-label {
+		font-size: 0.85em;
+	}
+}

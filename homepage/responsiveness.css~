@@ -1,0 +1,44 @@
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="about_para"] {
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+  }
+  [class = "mu-video-play-btn play"] {
+    margin-left: -5%;
+    margin-top: 20%;
+    }
+    [class = "hu"] {
+    margin-left : -2 !important%;
+    
+    }
+}
+  
+@media only screen and (max-width: 1440px) {
+    [class="mm"] {
+        width: 600px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    [class="play"] {
+        margin-left: -30% !important;
+    }
+    [class = "au"]{
+        margin-left: 15% !important;
+    }
+    [class = "mu-video-play-btn play"] {
+    margin-left: -25%;
+    margin-top: 20%;
+    }
+    [class = "hu"] {
+    margin-left : -25%;
+    
+    }
+}
+
+.play {
+    margin-top: 200%;
+}

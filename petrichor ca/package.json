@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/himanshu2047/Fest_Website_IITPKD#readme",
   "dependencies": {
-    "bcrypt": "^3.0.5",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.4",
